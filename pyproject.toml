@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "coach-corrida"
+version = "0.1.0"
+description = "Histórico pessoal de corrida e ciclismo, com fontes verificáveis e acesso por MCP."
+requires-python = ">=3.11"
+dependencies = ["fitdecode==0.11.0", "mcp>=2.3,<3", "tzdata>=2025.1"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10"]
+
+[project.scripts]
+coach = "coach_corrida.cli:main"
+coach-mcp = "coach_corrida.mcp_server:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
