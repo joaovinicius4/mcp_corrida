@@ -1,0 +1,7 @@
+# Trecho de configuração para copiar manualmente para o cliente MCP.
+# Não altera a configuração global do Codex automaticamente.
+[mcp_servers.coach_corrida]
+# Substitua C:\caminho\mcp_corrida pelo caminho do seu clone.
+command = "C:\\caminho\\mcp_corrida\\.venv\\Scripts\\python.exe"
+args = ["-m", "coach_corrida.mcp_server", "--data-dir", "C:\\caminho\\mcp_corrida\\data"]
+# Acrescente "--enable-writes" a args somente para usar rascunhos e confirmações.
