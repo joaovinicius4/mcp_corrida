@@ -1,0 +1,9 @@
+{
+  "week_start": "2026-11-23",
+  "sessions": [
+    {"date": "2026-11-24", "sport": "run", "minutes": 30, "instruction": "Leve, esforço confortável que permita conversar; reavaliar conforme recuperação."},
+    {"date": "2026-11-26", "sport": "run", "minutes": 30, "instruction": "Leve; registrar esforço percebido e como ficou no dia seguinte."},
+    {"date": "2026-11-29", "sport": "run", "minutes": 35, "instruction": "Leve; duração condicionada à boa tolerância das sessões anteriores."}
+  ],
+  "rationale": "Exemplo técnico baseado na tabela discutida. É rascunho e não foi aprovado ou registrado como plano vigente."
+}
